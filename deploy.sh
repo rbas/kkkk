@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 #openssl aes-256-cbc -K $encrypted_248b4e8cf39a_key -iv $encrypted_248b4e8cf39a_iv -in id_rsa.enc -out ~\/.ssh/id_rsa -d
 
