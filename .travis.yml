@@ -9,7 +9,7 @@ addons:
 deploy:
   provider: script
   script: ls -alh 
-  skip_cleanup: true
+#  skip_cleanup: true
   on:
     branch: master
     repo: rbas/kkkk
