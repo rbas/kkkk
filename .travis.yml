@@ -1,0 +1,7 @@
+deploy:
+    provider: "script"
+    script: "deploy.sh"
+    on:
+        branch: "master"
+        php: "7.0"
+        repo: "rbas/kkkk"
