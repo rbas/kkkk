@@ -1,7 +1,10 @@
 deploy:
-    provider: "script"
-    script: "deploy.sh"
-    on:
-        branch: "master"
-        php: "7.0"
-        repo: "rbas/kkkk"
+  provider: script
+  script: deploy.sh
+  on:
+    branch: master
+    php: '7.0'
+    repo: rbas/kkkk
+before_install:
+- openssl aes-256-cbc -K $encrypted_248b4e8cf39a_key -iv $encrypted_248b4e8cf39a_iv
+  -in id_rsa.enc -out id_rsa -d
