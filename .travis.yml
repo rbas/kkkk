@@ -1,6 +1,9 @@
 language: php
 php:
   - 7.0
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y openssl openssh-client
 deploy:
   provider: script
   script: deploy.sh
