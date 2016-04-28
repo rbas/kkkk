@@ -8,7 +8,7 @@ addons:
       - openssh-client
 deploy:
   provider: script
-  script: echo "blah" 
+  script: ls -alh 
   skip_cleanup: true
   on:
     branch: master
