@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BUILD_NAME=$(date +"%Y-%m-%d-%y-%H:%I.%N")
+BUILD_NAME=$(date +"%Y-%m-%d-%y-%H:%M.%N")
 
 mkdir $BUILD_NAME
 mv * $BUILD_NAME
