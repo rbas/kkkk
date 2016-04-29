@@ -3,7 +3,7 @@ PoSobota Workshop
 =================
 
 1. Vytvoreni uctu na Rosti.cz
-2. Vytovreni php appky
+2. Vytvoreni php appky
 3. Vytvoreni ruby appky
 
  - Navysit pamet na 1GB pro appku
