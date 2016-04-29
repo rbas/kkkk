@@ -52,7 +52,6 @@ PoSobota Workshop
 
 ::
 
-
  language: php
  php:
    - 7.0
