@@ -1,15 +1,9 @@
 language: php
 php:
   - 7.0
-#addons:
-#  apt:
-#    packages:
-#      - openssl
-#      - openssh-client
 deploy:
   provider: script
   script: ./deploy.sh
-#  skip_cleanup: true
   on:
     branch: master
     repo: rbas/kkkk
