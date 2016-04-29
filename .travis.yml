@@ -8,7 +8,7 @@ php:
 #      - openssh-client
 deploy:
   provider: script
-  script: ls -alh 
+  script: ./deploy.sh
 #  skip_cleanup: true
   on:
     branch: master
