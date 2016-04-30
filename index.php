@@ -44,7 +44,7 @@
 		<div>
 			<h2>Kde to jsem?</h2>
 			<h3 class="project-domain"></h3>
-			<p>
+			<p> <b>blah</b>
 				Na <a href="https://rosti.cz">Roští.cz</a> a prostředí pro vaši aplikaci je připraveno. Nyní můžete svůj web nahrát do složky <code>/srv/webroot</code>. Použijte k tomu SSH či SFTP přístup uvedený v administraci.
 			</p>
 			<p>V případě použití nejrůznějších php frameworků (<a href="http://symfony.com/">Symfony</a>, <a href="http://nette.org/cs/">Nette</a> atd...) nahrajte applikaci do adresáře <i>/srv/app</i> a na místo <i>/srv/webroot</i> vytvořte symlink na příslušné místo ve vaší applikaci.<br>
